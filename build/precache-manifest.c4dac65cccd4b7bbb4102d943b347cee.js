@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/static/js/2.0402e767.chunk.js"
   },
   {
-    "revision": "751e56274d3ea1c651ea824f902bb987",
-    "url": "/static/media/haymaker-webfont.751e5627.woff"
-  },
-  {
     "revision": "4c3fb584d3f63821357c8a9cff97f360",
     "url": "/static/media/haymaker-webfont.4c3fb584.eot"
+  },
+  {
+    "revision": "751e56274d3ea1c651ea824f902bb987",
+    "url": "/static/media/haymaker-webfont.751e5627.woff"
   },
   {
     "revision": "d2f8799a13e6db2022d9a7de22776705",
