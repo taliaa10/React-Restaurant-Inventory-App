@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import AddFishForm from "./AddFish";
 import EditFishForm from "./EditFish";
 import Login from "./Login";
@@ -6,7 +6,7 @@ import Rebase from "re-base";
 import firebase from "firebase";
 import base, { firebaseApp } from "../base";
 
-class Inventory extends React.Component {
+class Inventory extends Component {
   state = {
     uid: null,
     owner: null

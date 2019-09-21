@@ -1,6 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
 
-class EditFishForm extends React.Component {
+class EditFishForm extends Component {
   handleChange = e => {
     // update that fish
     // 1. Take a copy of that updated fish

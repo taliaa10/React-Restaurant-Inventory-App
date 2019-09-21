@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { formatPrice } from "../helpers";
 
-class Fish extends React.Component {
+class Fish extends Component {
   static propTypes = {
     details: PropTypes.shape({
       image: PropTypes.string,

@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import { formatPrice } from "../helpers";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
-class Order extends React.Component {
+class Order extends Component {
   renderOrder = key => {
     const fish = this.props.fishes[key];
     const count = this.props.order[key];

@@ -1,7 +1,7 @@
-import React from "react";
+import React, { Component } from "react";
 import PropTypes from "prop-types";
 
-class AddFishForm extends React.Component {
+class AddFishForm extends Component {
   nameRef = React.createRef();
   priceRef = React.createRef();
   statusRef = React.createRef();
